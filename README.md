@@ -6,7 +6,7 @@ An automated, low-cost **Automated Ultrasonic Radar System** designed for real-t
 
 ## 🛠️ System Architecture & Hardware Components
 
-The hardware platform utilizes an **Arduino Uno** accelerated through an **Arduino Sensor Shield V5.0** to form a rigid, vibration-resistant distribution hub.
+The hardware platform utilizes an **Arduino Uno** accelerated through an **Arduino Sensor Shield V5.0** to form a rigid, vibration-resistant distribution hub. The hardware components and the chassis infrastructure are shown in Fig. 1 and 2 respectively.
 
 * **Microcontroller:** Arduino Uno (ATmega328P processing core)
 * **Expansion Hub:** Arduino Sensor Shield V5.0
@@ -17,6 +17,10 @@ The hardware platform utilizes an **Arduino Uno** accelerated through an **Ardui
 <p align="center">
     <img src="images/ElectronicComponents.jpg" alt="Electronic Components" width="800"> <br>
     <em>Figure 1. Electronic Components.</em>
+</p>
+<p align="center">
+    <img src="images/Wooden_Baseplate.jpg" alt="Chassis Infrastructure" width="800"> <br>
+    <em>Figure 2. Laser-Cut Wooden Baseplate.</em>
 </p>
 ---
 
@@ -75,6 +79,10 @@ The PC host script catches the data stream asynchronously using a hardware-trigg
 2.  **Target Acquisition Module:** * **Local UI:** If an object breaks the 50 cm boundary, vibrant red danger nodes (`ST7735_RED`) are drawn over the local radar arcs accompanied by an active digital readout (e.g., `DIST: 24cm`).
     * **Remote UI:** The host workstation terminal flashes an instant red warning banner reading `Object Detected! Distance: [X] cm` which resets instantly to `Scanning... No Object` once the sweeping path is clear.
 
+<p align="center">
+    <img src="images/Results1.jpg" alt="Ultrasonic Radar System Testing" width="800"> <br>
+    <em>Figure 3. Ultrasonic Radar System Testing.</em>
+</p>
 ---
 
 ## 👥 Project Contributors
