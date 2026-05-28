@@ -14,7 +14,10 @@ The hardware platform utilizes an **Arduino Uno** accelerated through an **Ardui
 * **Distance Sensor:** HC-SR04 Ultrasonic Transceiver
 * **Actuator:** TowerPro SG90 Micro-Servo Motor
 * **Chassis Infrastructure:** Laser-Cut Plywood baseplate, elevated turret platform, and angled display console housing secured via nylon standoffs and metallic machine screws.
-
+<p align="center">
+    <img src="images/ElectronicComponents.jpg" alt="Electronic Components" width="800"> <br>
+    <em>Figure 1. Electronic Components.</em>
+</p>
 ---
 
 ## 🔌 Hardware Interface & Wiring Topology
